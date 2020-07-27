@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import logo from "../images/logo.svg";
-import { FaAlignRight, FaFileSignature } from "react-icons/fa";
+import { FaAlignRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
   state = {
-    isOpen: FaFileSignature,
+    isOpen: false,
   };
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });

@@ -310,7 +310,8 @@ h6 {
   position: relative;
 }
 .img-container img {
-  width: 100%;
+  width: 17rem;
+  height: 10rem;
   display: block;
   transition: var(--mainTransition);
 }

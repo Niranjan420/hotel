@@ -9,10 +9,7 @@ export default function home() {
   return (
     <React.Fragment>
       <Hero hero="defaultHero">
-        <Banner
-          title="Luxurious Rooms"
-          subtitle="Deluxe Rooms starting at $299"
-        >
+        <Banner title="Luxurious Rooms" subtitle="starting at $100 per night">
           <Link to="/rooms" className="btn-primary">
             Our Rooms
           </Link>
